@@ -1,62 +1,62 @@
 @font-face {
-    src: url('timer.ttf');
-    font-family: Timer; 
+	src: url("timer.ttf");
+	font-family: Timer;
 }
 
 body {
-    margin: 0;
-    background: #123;
+	margin: 0;
+	background: #123;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    background: #1B244A;
-    width: 575px;
-    margin: 80px auto;
-    border: 3px solid lightgray;
-    border-radius: 20px;
-    padding: 68px 82px;
+	display: flex;
+	justify-content: space-around;
+	background: #1b244a;
+	width: 575px;
+	margin: 80px auto;
+	border: 3px solid lightgray;
+	border-radius: 20px;
+	padding: 68px 82px;
 }
 
 h3 {
-    color: #EEEEEE;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 21px;
+	color: #eeeeee;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 21px;
 }
 
 .score {
-    width: 155px;
-    height: 120px;
-    background: black;
-    color: #F94F6D;
-    text-align: center;
-    font-size: 90px;
-    font-family: Timer;
-    vertical-align: middle;
-    line-height: 130px;
-    border-radius: 5px;
+	width: 155px;
+	height: 120px;
+	background: black;
+	color: #f94f6d;
+	text-align: center;
+	font-size: 90px;
+	font-family: Timer;
+	vertical-align: middle;
+	line-height: 130px;
+	border-radius: 5px;
 }
 
 .flex-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .btn-container {
-    margin-top: 26px;
+	margin-top: 26px;
 }
 
 button {
-    width: 45px; 
-    height: 45px;
-    background: none;
-    border: 2px solid #9AABD8;
-    color: #9AABD8;
-    font-family: Timer;
-    border-radius: 5px;
-    font-size: 18px;
-    line-height: 45px;
+	width: 45px;
+	height: 45px;
+	background: none;
+	border: 2px solid #9aabd8;
+	color: #9aabd8;
+	font-family: Timer;
+	border-radius: 5px;
+	font-size: 18px;
+	line-height: 45px;
 }
